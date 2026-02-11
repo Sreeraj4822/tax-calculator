@@ -1,0 +1,34 @@
+Using default tag: latest
+The push refers to repository [us.icr.io/sn-labs-sreerajr2324/tax-calculator]
+46180d155cd5: Preparing
+f6437626ce2d: Preparing
+3db0eba1e56e: Preparing
+469578e6916d: Preparing
+1f1d2cb5a323: Preparing
+4952de04fe7e: Preparing
+627c009aa115: Preparing
+b9390f60b84f: Preparing
+bced0e9a39b0: Preparing
+18b09c39ca9f: Preparing
+edcb98f6af68: Preparing
+a8ff6f8cbdfd: Preparing
+4952de04fe7e: Waiting
+627c009aa115: Waiting
+b9390f60b84f: Waiting
+bced0e9a39b0: Waiting
+18b09c39ca9f: Waiting
+edcb98f6af68: Waiting
+a8ff6f8cbdfd: Waiting
+469578e6916d: Layer already exists
+f6437626ce2d: Layer already exists
+3db0eba1e56e: Layer already exists
+1f1d2cb5a323: Layer already exists
+46180d155cd5: Layer already exists
+4952de04fe7e: Layer already exists
+bced0e9a39b0: Layer already exists
+627c009aa115: Layer already exists
+18b09c39ca9f: Layer already exists
+b9390f60b84f: Layer already exists
+a8ff6f8cbdfd: Layer already exists
+edcb98f6af68: Layer already exists
+latest: digest: sha256:55f2058c96975fc22709f03db4e244a2fefba22f7cf654f9878099bf7c975e4a size: 2816

@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 305B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/nginx:latest@sha256:514a9c2814250e61396ef4d6125ece1a8fbb3b0964a2ab441e9f7acf0b66b8b5
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 157B done
+#5 DONE 0.0s
+
+#6 [2/6] COPY favicon.ico /usr/share/nginx/html/favicon.ico
+#6 CACHED
+
+#7 [5/6] COPY style.css /usr/share/nginx/html/style.css
+#7 CACHED
+
+#8 [3/6] COPY index.html /usr/share/nginx/html/index.html
+#8 CACHED
+
+#9 [4/6] COPY script.js /usr/share/nginx/html/script.js
+#9 CACHED
+
+#10 [6/6] COPY taxCalculator.js /usr/share/nginx/html/taxCalculator.js
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 writing image sha256:5ad076b52c399c42df0ffb13c146277386ed7a20747ce903091419f973a3f2f5 done
+#11 naming to docker.io/library/tax-calculator done
+#11 DONE 0.0s
